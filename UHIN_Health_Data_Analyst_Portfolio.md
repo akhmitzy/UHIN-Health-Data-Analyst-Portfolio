@@ -1,6 +1,6 @@
 # Health Data Analyst Portfolio — UHIN Application
 
-Oct 25, 2026 · @superboss
+Oct 25, 2026 
 
 ## Portfolio overview
 
@@ -314,7 +314,7 @@ The XGBoost model reached AUROC \[X\] versus \[X\] for LACE; among the top 5% of
 | Plan All-Cause Readmissions (PCR) | HEDIS / Stars | Index stays 18+ | Readmission within 30 days, reported as observed/expected |
 | Statin Use in Persons with Diabetes | Stars (Part D) | Members 40–75 with diabetes fills | ≥ 1 statin fill |
 
-Always cite the measurement-year specification you followed; real measure logic includes exclusions (hospice, palliative care, frailty plus advanced illness) that must be built, not skipped.
+I will always cite the measurement-year specification I followed; real measure logic includes exclusions (hospice, palliative care, frailty plus advanced illness) that must be built, not skipped.
 
 ### SQL: measure-as-code pattern
 
@@ -598,11 +598,11 @@ Each project README should follow the same five headings: business question, dat
 
 ### Interview talking points
 
-- **Data quality story (Project 1):** describe one anomaly you caught, how you proved it, and how you told the contributor without exposing PHI. UHIN runs an HIE, so this is likely their daily reality.
-- **The “why not before/after” story (Project 5):** explain regression to the mean in two sentences. It shows statistical maturity that most candidates lack.
-- **Calibration over accuracy (Project 3):** explain why a care manager needs an honest probability, not just a high AUROC.
+- **Data quality story (Project 1):** I describe one anomaly I caught, how I prove it, and how I should tell the contributor without exposing PHI. UHIN runs an HIE, so this is likely their daily reality.
+- **The “why not before/after” story (Project 5):** I explain regression to the mean in two sentences in the style of statistical maturity.
+- **Calibration over accuracy (Project 3):** I explain why a care manager needs an honest probability, not just a high AUROC.
 - **Claims plus clinical (Project 4):** the rate gain from adding clinical data is the business case for an HIE — say it in UHIN’s terms.
-- **Translation (governance pack):** read the two versions of the same finding aloud.
+- **Translation (governance pack):** to read the two versions of the same finding aloud.
 
 ### 30-60-90 day plan to bring to the final interview
 
@@ -610,10 +610,12 @@ Each project README should follow the same five headings: business question, dat
 2. **Days 31–60 — stabilize:** stand up automated quality checks on the highest-volume feeds; document data dictionaries for the most-used tables; deliver one quick-win dashboard improvement.
 3. **Days 61–90 — extend:** deliver a first risk-stratified or quality-measure dataset for the CDO’s predictive work; publish a contributor data-quality scorecard; propose one evaluation study for a value-based care initiative.
 
-### Final checklist before you share the link
+### Final checklist before to share the link
 
-- [ ] Every \[bracket\] replaced with a number you produced
+- [ ] Every \[bracket\] replaced with a number I produced
 - [ ] No real patient data anywhere in the repository or screenshots
 - [ ] Dashboards load from a public link without a login
 - [ ] Each notebook runs top to bottom from a clean environment
-- [ ] README links the portfolio from your resume and LinkedIn
+
+
+
